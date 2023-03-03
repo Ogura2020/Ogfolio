@@ -1,0 +1,31 @@
+body{
+  background-color: #FFFFF6;
+}
+
+a{
+    text-decoration:none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; /*ヘッダーの固定*/
+    width: 100%;
+    padding: 1.2rem 7rem;
+    /*background-color: #FFBD15;*/
+    font-size: 18px;
+    font-weight: bold;
+}
+img#logo{
+    width: 108px; 
+    height: 70px;
+}
+ul{
+    display: flex;
+    list-style: none;
+
+}
+li{
+    margin-left: 4em;
+}
